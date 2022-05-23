@@ -11,7 +11,11 @@ import SwiftUI
 struct usersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UserListView()
         }
+    }
+    
+    private func syncdb()async{
+        await DB_Manager().getDb()
     }
 }

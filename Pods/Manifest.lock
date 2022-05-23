@@ -1,0 +1,22 @@
+PODS:
+  - CardSlider (0.1.0)
+  - SQLite.swift (0.13.3):
+    - SQLite.swift/standard (= 0.13.3)
+  - SQLite.swift/standard (0.13.3)
+
+DEPENDENCIES:
+  - CardSlider
+  - SQLite.swift (~> 0.13.3)
+
+SPEC REPOS:
+  trunk:
+    - CardSlider
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  CardSlider: 0a8f5f17f5a76701771794b07fdaeddc512358c8
+  SQLite.swift: 903bfa3bc9ab06345fdfbb578e34f47cfcf417da
+
+PODFILE CHECKSUM: 30906dbc9a7bdaf474f7a3f12f58c3e9b590cf82
+
+COCOAPODS: 1.11.2
